@@ -16,6 +16,7 @@
     // app.use(router);
 
     app.get('/', (req, res) => {
+        console.log("i was pinged");
         res.status(200).json({ message: "ALLO WORLD" })
     })
     
